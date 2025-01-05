@@ -28,3 +28,18 @@ This FastAPI application allows for managing city data and their corresponding t
 - **`POST /temperatures/update`**: Fetch current temperatures for all cities and store them in the database.
 - **`GET /temperatures`**: Retrieve all temperature records.
 - **`GET /temperatures/?city_id={city_id}`**: Retrieve temperature records for a specific city.
+
+---
+
+## Installation
+
+### Prerequisites
+- Python 3.9 or later.
+- SQLite (or another compatible database).
+- `pip` for managing Python packages.
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>

@@ -13,8 +13,8 @@ from city import crud as city_crud
 from city import models as city_models
 from temperature import models
 
-API_KEY = "8a19a0a9eadc406f851114434241611"
-BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
+API_KEY = "API_KEY"
+BASE_URL = "BASE_URL"
 
 
 async def fetch_temperature(city_name: str) -> float:

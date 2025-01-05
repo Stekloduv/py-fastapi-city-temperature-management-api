@@ -5,9 +5,6 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from city.models import *
-from temperature.models import *
-
 from city.models import Base as CityBase
 from temperature.models import Base as TemperatureBase
 from sqlalchemy import MetaData

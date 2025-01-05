@@ -21,7 +21,7 @@ async def get_all_temperatures_records(
 async def get_all_temperatures_records_by_city_id(
         city_id: int,
         db: AsyncSession = Depends(get_db)
-) -> [models.DBTemperature]:
+) -> list[models.DBTemperature]:
     return await crud.get_all_temperatures_records_by_city_id(
         city_id=city_id,
         db=db,
